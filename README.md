@@ -1,26 +1,27 @@
 # investment-app
 
-Simulates the development of an investment over time based on user-provided parameters, essentials practice and signals
+Simulates the development of an investment over time based on user-provided parameters, practice essentials and signals
 
 ## Project Structure
 
+```
 src/app
 │
 ├── header/ # responsible for application header
-│ ├── header.component.css  
-│ ├── header.component.html  
-│ └── header.component.ts  
+│ ├── header.component.css
+│ ├── header.component.html
+│ └── header.component.ts
 │
 ├── investment-results/ # responsible for results display
-│ ├── investment-results.component.css  
-│ ├── investment-results.component.html  
-│ └── investment-results.component.ts  
+│ ├── investment-results.component.css
+│ ├── investment-results.component.html
+│ └── investment-results.component.ts
 │
 ├── user-input/ # responsible for handling user input data
-│ ├── user-input.component.css  
-│ ├── user-input.component.html  
-│ ├── user-input.component.ts  
-│ └── user-input.module.ts  
+│ ├── user-input.component.css
+│ ├── user-input.component.html
+│ ├── user-input.component.ts
+│ └── user-input.module.ts
 │
 ├── app.component.html # Template that orchestrates components
 ├── app.component.ts # Root component logic
@@ -33,10 +34,11 @@ src/app
 ├── main.ts # Boostrap Angular
 │
 └── styles.css # Global styles
+```
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/) and create-react-app to start app.
+Use the package manager [npm](https://www.npmjs.com/) and start app
 
 ```gitbash
 npm install
@@ -48,12 +50,14 @@ npm install
 npm start
 ```
 
-Open in your browser > http://localhost:4200/ > input data..
+1. Open in your browser http://localhost:4200/
+2. Input data
+3. Press "CALCULATE" button
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
 <p align="center">
-  <img src="https://imgur.com/a/TTnJBPb" alt="Practice - calculator - app"/>
+  <img src="https://i.imgur.com/WJKi0EV.png" alt="Practice - calculator - app"/>
 </p>
